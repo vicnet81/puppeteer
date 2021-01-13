@@ -1,0 +1,14 @@
+{
+    "web": {
+        "client_id": "573425805647-itli08t5p6p4vbqun9u4gn6j9ijr2ie2.apps.googleusercontent.com",
+        "project_id": "pelagic-chalice-289019",
+        "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+        "token_uri": "https://oauth2.googleapis.com/token",
+        "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+        "client_secret": "5gOqdYsGWFTozfR8eUmVTRLK",
+        "redirect_uris": [
+            "http://localhost:3000/oauth2callback"
+        ]
+    },
+    "refresh_token": "1//0hlIa2mvmkHKrCgYIARAAGBESNwF-L9Irj6RYEwVywmOMeWS-3V4P-32M0Sedzs0KyCl_IBSW-RCI-TQz38zLuFSeUkxHjZLg3F0"
+}
