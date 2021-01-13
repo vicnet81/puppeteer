@@ -16,9 +16,10 @@ let main = async () => {
     console.log("#id_password");
     await page.type("#id_password","Info20191");
     await page.waitForSelector("input[type='submit']");
+    await page.click("input[type='submit']");
     console.log("input[type='submit']");
     try{
-      await page.waitForSelector("#user-tools",{timeout:60000});
+      await page.waitForSelector("#user-tools",{timeout:30000});
       console.log("#user-tools");
     }catch(e){
       await page.screenshot({fullPage: true, path: 'screenshot.png'});
